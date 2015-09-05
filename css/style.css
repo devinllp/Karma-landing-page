@@ -488,6 +488,60 @@ div {
 }
 
 
+/* Slider
+   ========================================================================== */
+
+.slider {
+  background-image: url(../images/first-background.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 15em 0em;
+}
+
+.slider-content {
+  max-width: 60em;
+  margin: 0em auto;
+}
+
+.slider-header {
+  text-align: center;
+  color: #ffffff;
+  font-size: 3.125rem;
+  font-weight: 300;
+  font-family: roboto, sans-serif;
+}
+
+.slider-description {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.563rem;
+  font-weight: 300;
+  font-family: roboto, sans-serif;
+  margin-top: -1.2em;
+}
+
+.button-slider {
+  text-align: center;
+  color: #ffffff;
+  padding: 1em 1.3em;
+  background-color: #f15a29;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}  
+
+.button-slider:hover {
+   background-color: #d9400e;
+}
+
+.button-div {
+  margin: 3em auto 0em auto;
+  max-width: 10em;
+  text-align: center;
+}
+
 
 
 
