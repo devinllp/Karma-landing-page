@@ -425,3 +425,76 @@ td,
 th {
   padding: 0;
 }
+
+/* End Normalize.css
+   ========================================================================== */
+
+
+body {
+    background-color: LightGray;
+}
+
+/*
+
+div {
+    border: 1px solid Chocolate;
+}
+
+*/
+/* Nav bar
+   ========================================================================== */
+
+
+.navbar-outer {
+  background-color: #ffffff;
+  height: 4.438em;
+}
+
+.navbar-inner {
+  max-width: 60em;
+  margin-right: auto;
+  margin-left: auto;
+  height: inherit;
+}
+
+.logo {
+  float: left;
+  padding: 1em 0em;
+}
+
+.logo img {
+    height: 2.563em;
+}
+
+.nav-links {
+  float: right;
+  margin-top: 0.6em;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+
+.nav-links li a {
+  color: #838994;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
