@@ -469,6 +469,8 @@ div {
 .nav-links {
   float: right;
   margin-top: 0.6em;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
 }
 
 .nav-links li {
