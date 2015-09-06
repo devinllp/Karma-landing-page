@@ -431,7 +431,7 @@ th {
 
 
 body {
-    background-color: LightGray;
+    background-color: #ffffff;
 }
 
 /*
@@ -448,6 +448,9 @@ div {
 .navbar-outer {
   background-color: #ffffff;
   height: 4.438em;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .navbar-inner {
@@ -541,6 +544,44 @@ div {
   max-width: 10em;
   text-align: center;
 }
+
+.feature-icons {
+  max-width: 60em;
+  margin: 0em auto;
+  text-align: center;
+  margin-top: 8em;
+}
+
+.feature-icons h1 {
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+  font-size: 2.5em;
+  margin-bottom: 2em;
+}
+
+.feature-icons li {
+  display: inline-block;
+  padding: 0em 3.4em;
+}
+
+.feature-icons img {
+  width: 127px;
+  height: 127px;
+}
+
+.icon-descrip p {
+  font-family: roboto, sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+  margin-top: 1.3em;
+}
+
+.feature-icons ul {
+  padding-left: 0px;
+}
+
+
+
 
 
 
